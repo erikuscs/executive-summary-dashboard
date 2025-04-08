@@ -1,0 +1,32 @@
+{
+    "kpis": {
+      "totalBudget": 300000,
+      "spent": 185000,
+      "remaining": 115000,
+      "risk": "Moderate"
+    },
+    "weeklyCost": [
+      { "week": "Week 1", "AdjustedTotalCost": 25000, "TotalWeeklyCost": 20000 },
+      { "week": "Week 2", "AdjustedTotalCost": 27000, "TotalWeeklyCost": 21000 }
+    ],
+    "breakdown": [
+      { "type": "Labor", "cost": 150000 },
+      { "type": "Travel", "cost": 50000 },
+      { "type": "Lodging", "cost": 35000 }
+    ],
+    "schedule": [
+      { "task": "System 1", "Planned": 100, "Actual": 80 },
+      { "task": "System 2", "Planned": 90, "Actual": 40 }
+    ],
+    "issues": [
+      {
+        "date": "2025-01-20",
+        "issue": "Unprepared laydown yard",
+        "system": "System 1",
+        "impact": "Mobilization delays",
+        "accountability": "GC",
+        "consequence": "Workflow disruption"
+      }
+    ]
+  }
+  
