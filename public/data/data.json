@@ -15,6 +15,11 @@
       "week": "Week 2",
       "AdjustedTotalCost": 27000,
       "TotalWeeklyCost": 21000
+    },
+    {
+      "week": "Week 3",
+      "AdjustedTotalCost": 29000,
+      "TotalWeeklyCost": 22000
     }
   ],
   "breakdown": [
@@ -41,6 +46,11 @@
       "task": "System 2",
       "Planned": 90,
       "Actual": 40
+    },
+    {
+      "task": "System 3",
+      "Planned": 75,
+      "Actual": 20
     }
   ],
   "issues": [
@@ -51,6 +61,22 @@
       "impact": "Mobilization delays",
       "accountability": "GC",
       "consequence": "Workflow disruption"
+    },
+    {
+      "date": "2025-01-28",
+      "issue": "Water intrusion in equipment zone",
+      "system": "System 1",
+      "impact": "Material relocation and cleanup",
+      "accountability": "Owner",
+      "consequence": "Additional labor and delay"
+    },
+    {
+      "date": "2025-03-18",
+      "issue": "System 2/3 area blocked by trades",
+      "system": "System 2 & 3",
+      "impact": "Unable to begin installation",
+      "accountability": "GC",
+      "consequence": "Schedule conflict with scaffolding"
     }
   ]
 }
