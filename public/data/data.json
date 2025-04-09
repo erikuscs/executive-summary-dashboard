@@ -6,52 +6,23 @@
     "risk": "Moderate"
   },
   "weeklyCost": [
-    {
-      "week": "Week 1",
-      "AdjustedTotalCost": 25000,
-      "TotalWeeklyCost": 20000
-    },
-    {
-      "week": "Week 2",
-      "AdjustedTotalCost": 27000,
-      "TotalWeeklyCost": 21000
-    },
-    {
-      "week": "Week 3",
-      "AdjustedTotalCost": 29000,
-      "TotalWeeklyCost": 22000
-    }
+    { "week": "Week 1", "AdjustedTotalCost": 25000, "TotalWeeklyCost": 20000 },
+    { "week": "Week 2", "AdjustedTotalCost": 27000, "TotalWeeklyCost": 21000 },
+    { "week": "Week 3", "AdjustedTotalCost": 29000, "TotalWeeklyCost": 23000 },
+    { "week": "Week 4", "AdjustedTotalCost": 31000, "TotalWeeklyCost": 24000 }
   ],
   "breakdown": [
-    {
-      "type": "Labor",
-      "cost": 150000
-    },
-    {
-      "type": "Travel",
-      "cost": 50000
-    },
-    {
-      "type": "Lodging",
-      "cost": 35000
-    }
+    { "type": "Labor", "cost": 150000 },
+    { "type": "Travel", "cost": 50000 },
+    { "type": "Lodging", "cost": 35000 },
+    { "type": "Equipment", "cost": 30000 },
+    { "type": "Misc", "cost": 35000 }
   ],
   "schedule": [
-    {
-      "task": "System 1",
-      "Planned": 100,
-      "Actual": 80
-    },
-    {
-      "task": "System 2",
-      "Planned": 90,
-      "Actual": 40
-    },
-    {
-      "task": "System 3",
-      "Planned": 75,
-      "Actual": 20
-    }
+    { "task": "System 1", "Planned": 100, "Actual": 80 },
+    { "task": "System 2", "Planned": 90, "Actual": 40 },
+    { "task": "System 3", "Planned": 85, "Actual": 25 },
+    { "task": "Final Testing", "Planned": 100, "Actual": 0 }
   ],
   "issues": [
     {
@@ -71,12 +42,20 @@
       "consequence": "Additional labor and delay"
     },
     {
+      "date": "2025-02-24",
+      "issue": "Temporary power not available",
+      "system": "System 2",
+      "impact": "Delay in system testing",
+      "accountability": "GC",
+      "consequence": "Use of temporary BESS power system"
+    },
+    {
       "date": "2025-03-18",
-      "issue": "System 2/3 area blocked by trades",
+      "issue": "Trades blocking install area",
       "system": "System 2 & 3",
       "impact": "Unable to begin installation",
       "accountability": "GC",
-      "consequence": "Schedule conflict with scaffolding"
+      "consequence": "Reschedule required with scaffolding removal"
     }
   ]
 }
