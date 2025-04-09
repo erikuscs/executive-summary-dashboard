@@ -8,21 +8,18 @@
   "weeklyCost": [
     { "week": "Week 1", "AdjustedTotalCost": 25000, "TotalWeeklyCost": 20000 },
     { "week": "Week 2", "AdjustedTotalCost": 27000, "TotalWeeklyCost": 21000 },
-    { "week": "Week 3", "AdjustedTotalCost": 29000, "TotalWeeklyCost": 23000 },
-    { "week": "Week 4", "AdjustedTotalCost": 31000, "TotalWeeklyCost": 24000 }
+    { "week": "Week 3", "AdjustedTotalCost": 29000, "TotalWeeklyCost": 23000 }
   ],
   "breakdown": [
     { "type": "Labor", "cost": 150000 },
     { "type": "Travel", "cost": 50000 },
     { "type": "Lodging", "cost": 35000 },
-    { "type": "Equipment", "cost": 30000 },
-    { "type": "Misc", "cost": 35000 }
+    { "type": "Equipment", "cost": 30000 }
   ],
   "schedule": [
     { "task": "System 1", "Planned": 100, "Actual": 80 },
     { "task": "System 2", "Planned": 90, "Actual": 40 },
-    { "task": "System 3", "Planned": 85, "Actual": 25 },
-    { "task": "Final Testing", "Planned": 100, "Actual": 0 }
+    { "task": "System 3", "Planned": 85, "Actual": 25 }
   ],
   "issues": [
     {
@@ -35,27 +32,19 @@
     },
     {
       "date": "2025-01-28",
-      "issue": "Water intrusion in equipment zone",
+      "issue": "Water intrusion",
       "system": "System 1",
-      "impact": "Material relocation and cleanup",
+      "impact": "Material relocation",
       "accountability": "Owner",
-      "consequence": "Additional labor and delay"
-    },
-    {
-      "date": "2025-02-24",
-      "issue": "Temporary power not available",
-      "system": "System 2",
-      "impact": "Delay in system testing",
-      "accountability": "GC",
-      "consequence": "Use of temporary BESS power system"
+      "consequence": "Additional labor"
     },
     {
       "date": "2025-03-18",
-      "issue": "Trades blocking install area",
+      "issue": "Blocked install area",
       "system": "System 2 & 3",
-      "impact": "Unable to begin installation",
+      "impact": "Install delay",
       "accountability": "GC",
-      "consequence": "Reschedule required with scaffolding removal"
+      "consequence": "Reschedule with scaffolding"
     }
   ]
 }
